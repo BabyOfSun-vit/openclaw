@@ -1,0 +1,8 @@
+cat << 'EOF' > .gitignore
+.env
+*.sqlite3
+__pycache__/
+.ai_env/
+venv/
+*.log
+EOF
